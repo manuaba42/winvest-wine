@@ -230,7 +230,7 @@
           </li>
           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
             <img alt="image" src="assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
-            <div class="d-sm-none d-lg-inline-block">Hi, Ujang Maman</div></a>
+            <div class="d-sm-none d-lg-inline-block">Hi, Budi</div></a>
             <div class="dropdown-menu dropdown-menu-right">
               <div class="dropdown-title">Logged in 5 min ago</div>
               <a href="features-profile.html" class="dropdown-item has-icon">
@@ -264,10 +264,10 @@
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Dashboard</span></a>
               <ul class="dropdown-menu">
                 <li><a class="nav-link" href="index-0.html">General Dashboard</a></li>
-                <li class=active><a class="nav-link" href="index.html">Ecommerce Dashboard</a></li>
+                <li class=active><a class="nav-link" href="index.html">Investment Dashboard</a></li>
               </ul>
             </li>
-            <li class="menu-header">Starter</li>
+            <!-- <li class="menu-header">Starter</li>
             <li class="dropdown">
               <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Layout</span></a>
               <ul class="dropdown-menu">
@@ -394,7 +394,7 @@
             <a href="https://getstisla.com/docs" class="btn btn-primary btn-lg btn-block btn-icon-split">
               <i class="fas fa-rocket"></i> Documentation
             </a>
-          </div>        </aside>
+          </div>        </aside> -->
       </div>
 
       <!-- Main Content -->
@@ -518,10 +518,10 @@
                 <div class="card-body" id="top-5-scroll">
                   <ul class="list-unstyled list-unstyled-border">
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-3-50.png" alt="product">
+                      <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">86 Sales</div></div>
-                        <div class="media-title">oPhone S9 Limited</div>
+                        <div class="media-title">Peramanca 2015</div>
                         <div class="mt-1">
                           <div class="budget-price">
                             <div class="budget-price-square bg-primary" data-width="64%"></div>
@@ -535,10 +535,10 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-4-50.png" alt="product">
+                    <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png" alt="product">
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">67 Sales</div></div>
-                        <div class="media-title">iBook Pro 2018</div>
+                        <div class="media-title">Cartuxa 2011</div>
                         <div class="mt-1">
                           <div class="budget-price">
                             <div class="budget-price-square bg-primary" data-width="84%"></div>
@@ -552,10 +552,11 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-1-50.png" alt="product">
+                    <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png" alt="product">
+
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">63 Sales</div></div>
-                        <div class="media-title">Headphone Blitz</div>
+                        <div class="media-title">Javali 2013</div>
                         <div class="mt-1">
                           <div class="budget-price">
                             <div class="budget-price-square bg-primary" data-width="34%"></div>
@@ -569,10 +570,11 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-3-50.png" alt="product">
+                    <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png" alt="product">
+
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">28 Sales</div></div>
-                        <div class="media-title">oPhone X Lite</div>
+                        <div class="media-title">Chateau Clerc-Milon 2002</div>
                         <div class="mt-1">
                           <div class="budget-price">
                             <div class="budget-price-square bg-primary" data-width="45%"></div>
@@ -586,10 +588,11 @@
                       </div>
                     </li>
                     <li class="media">
-                      <img class="mr-3 rounded" width="55" src="assets/img/products/product-5-50.png" alt="product">
+                    <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png" alt="product">
+
                       <div class="media-body">
                         <div class="float-right"><div class="font-weight-600 text-muted text-small">19 Sales</div></div>
-                        <div class="media-title">Old Camera</div>
+                        <div class="media-title">Chateau Mouton Rothschild 2000</div>
                         <div class="mt-1">
                           <div class="budget-price">
                             <div class="budget-price-square bg-primary" data-width="35%"></div>
@@ -628,10 +631,10 @@
                     <div>
                       <div class="product-item pb-3">
                         <div class="product-image">
-                          <img alt="image" src="assets/img/products/product-4-50.png" class="img-fluid">
+                          <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
                         </div>
                         <div class="product-details">
-                          <div class="product-name">iBook Pro 2018</div>
+                          <div class="product-name">Cartuxa 2018</div>
                           <div class="product-review">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -649,10 +652,10 @@
                     <div>
                       <div class="product-item">
                         <div class="product-image">
-                          <img alt="image" src="assets/img/products/product-3-50.png" class="img-fluid">
+                          <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
                         </div>
                         <div class="product-details">
-                          <div class="product-name">oPhone S9 Limited</div>
+                          <div class="product-name">Peramanca 2015</div>
                           <div class="product-review">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -670,10 +673,10 @@
                     <div>
                       <div class="product-item">
                         <div class="product-image">
-                          <img alt="image" src="assets/img/products/product-1-50.png" class="img-fluid">
+                          <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
                         </div>
                         <div class="product-details">
-                          <div class="product-name">Headphone Blitz</div>
+                          <div class="product-name">Javali 2011</div>
                           <div class="product-review">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
