@@ -831,9 +831,9 @@
             <div class="col-md-4">
               <div class="card card-hero">
                 <div class="card-header">
-                  <div class="card-icon">
+                  {{-- <div class="card-icon">
                     <i class="far fa-question-circle"></i>
-                  </div>
+                  </div> --}}
                   <h4>14</h4>
                   <div class="card-description">Customers need help</div>
                 </div>
