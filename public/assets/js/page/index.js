@@ -9,13 +9,13 @@ var myChart = new Chart(ctx, {
       label: 'Sales',
       data: [3200, 1800, 4305, 3022, 6310, 5120, 5880, 6154],
       borderWidth: 2,
-      backgroundColor: 'rgba(63,82,227,.8)',
+      backgroundColor: 'rgba(234, 117, 73,.8)',
       borderWidth: 0,
       borderColor: 'transparent',
       pointBorderWidth: 0,
       pointRadius: 3.5,
       pointBackgroundColor: 'transparent',
-      pointHoverBackgroundColor: 'rgba(63,82,227,.8)',
+      pointHoverBackgroundColor: 'rgba(234, 117, 73,.8)',
     },
     {
       label: 'Budget',
@@ -62,8 +62,8 @@ var myChart = new Chart(ctx, {
 var balance_chart = document.getElementById("balance-chart").getContext('2d');
 
 var balance_chart_bg_color = balance_chart.createLinearGradient(0, 0, 0, 70);
-balance_chart_bg_color.addColorStop(0, 'rgba(63,82,227,.2)');
-balance_chart_bg_color.addColorStop(1, 'rgba(63,82,227,0)');
+balance_chart_bg_color.addColorStop(0, 'rgba(234, 117, 73,.2)');
+balance_chart_bg_color.addColorStop(1, 'rgba(234, 117, 73, 0)');
 
 var myChart = new Chart(balance_chart, {
   type: 'line',
@@ -79,7 +79,7 @@ var myChart = new Chart(balance_chart, {
       pointBorderColor: 'transparent',
       pointRadius: 3,
       pointBackgroundColor: 'transparent',
-      pointHoverBackgroundColor: 'rgba(63,82,227,1)',
+      pointHoverBackgroundColor: '#F25C25',
     }]
   },
   options: {
@@ -119,8 +119,8 @@ var myChart = new Chart(balance_chart, {
 var sales_chart = document.getElementById("sales-chart").getContext('2d');
 
 var sales_chart_bg_color = sales_chart.createLinearGradient(0, 0, 0, 80);
-balance_chart_bg_color.addColorStop(0, 'rgba(63,82,227,.2)');
-balance_chart_bg_color.addColorStop(1, 'rgba(63,82,227,0)');
+balance_chart_bg_color.addColorStop(0, 'rgba(234, 117, 73,.2)');
+balance_chart_bg_color.addColorStop(1, 'rgba(234, 117, 73, 0)');
 
 var myChart = new Chart(sales_chart, {
   type: 'line',
@@ -137,7 +137,7 @@ var myChart = new Chart(sales_chart, {
       pointBorderColor: 'transparent',
       pointRadius: 3,
       pointBackgroundColor: 'transparent',
-      pointHoverBackgroundColor: 'rgba(63,82,227,1)',
+      pointHoverBackgroundColor: '#F25C25',
     }]
   },
   options: {
