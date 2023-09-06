@@ -21,10 +21,10 @@ $('.sparkline-line').sparkline(sparkline_values, {
   width: '100%',
   height: '32',
   lineWidth: 3,
-  lineColor: 'rgba(63, 82, 227, .5)',
+  lineColor: 'rgba(234, 117, 73, .5)',
   fillColor: 'transparent',
-  highlightSpotColor: 'rgba(63, 82, 227, .5)',
-  highlightLineColor: 'rgba(63, 82, 227, .5)',
+  highlightSpotColor: 'rgba(234, 117, 73, .5)',
+  highlightLineColor: 'rgba(234, 117, 73, .5)',
   spotRadius: 3,
 });
 
@@ -33,10 +33,10 @@ $('.sparkline-line-chart').sparkline(sparkline_values_chart, {
   width: '100%',
   height: '32',
   lineWidth: 2,
-  lineColor: 'rgba(63, 82, 227, .5)',
+  lineColor: 'rgba(234, 117, 73, .5)',
   fillColor: 'transparent',
-  highlightSpotColor: 'rgba(63, 82, 227, .5)',
-  highlightLineColor: 'rgba(63, 82, 227, .5)',
+  highlightSpotColor: 'rgba(234, 117, 73, .5)',
+  highlightLineColor: 'rgba(234, 117, 73, .5)',
   spotRadius: 2,
 });
 

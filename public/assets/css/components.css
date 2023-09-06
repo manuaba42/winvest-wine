@@ -1494,7 +1494,7 @@ tr:first-child > td > .fc-day-grid-event {
   transition: all 0.5s;
 }
 .tickets .ticket-items .ticket-item:hover {
-  background-color: rgba(63, 82, 227, 0.03);
+  background-color: rgba(234, 117, 73, 0.03);
 }
 .tickets .ticket-items .ticket-item:hover .ticket-title {
   color: #E88E6D;
