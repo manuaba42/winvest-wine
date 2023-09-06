@@ -9,10 +9,10 @@ $('.sparkline-inline').sparkline(sparkline_values, {
   width: '100%',
   height: '200',
   lineWidth: 3,
-  lineColor: 'rgba(63,82,227,.1)',
-  fillColor: 'rgba(63,82,227,.4)',
-  highlightSpotColor: 'rgba(63,82,227,.1)',
-  highlightLineColor: 'rgba(63,82,227,.1)',
+  lineColor: 'rgba(234, 117, 73,.1)',
+  fillColor: 'rgba(234, 117, 73,.4)',
+  highlightSpotColor: 'rgba(234, 117, 73,.1)',
+  highlightLineColor: 'rgba(234, 117, 73,.1)',
   spotRadius: 3,
 });
 
@@ -21,10 +21,10 @@ $('.sparkline-line').sparkline(sparkline_values, {
   width: '100%',
   height: '200',
   lineWidth: 3,
-  lineColor: 'rgba(63,82,227,.6)',
+  lineColor: 'rgba(234, 117, 73,.6)',
   fillColor: 'transparent',
-  highlightSpotColor: 'rgba(63,82,227,.1)',
-  highlightLineColor: 'rgba(63,82,227,.1)',
+  highlightSpotColor: 'rgba(234, 117, 73,.1)',
+  highlightLineColor: 'rgba(234, 117, 73,.1)',
   spotRadius: 3,
 });
 
