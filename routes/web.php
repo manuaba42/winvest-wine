@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ContractController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 Route::get('/profile', [ProfileController::class, 'index']);
 Route::get('/list-wine', [ProductController::class, 'index']);
+Route::get('/contract', [ContractController::class, 'index']);
