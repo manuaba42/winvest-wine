@@ -33,7 +33,7 @@
                         <div class="card-stats-item">
                             <div class="card-stats-item-count">12</div>
                             <div class="card-stats-item-label">Shipping</div>
-                        </div>
+                        </div> 
                         <div class="card-stats-item">
                             <div class="card-stats-item-count">23</div>
                             <div class="card-stats-item-label">Completed</div>
@@ -45,10 +45,10 @@
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Total Orders</h4>
+                        <h4>Total Wine Invest</h4>
                     </div>
                     <div class="card-body">
-                        59
+                        47
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
         <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card card-statistic-2">
                 <div class="card-chart">
-                    <canvas id="balance-chart" height="80"></canvas>
+                    <!-- <canvas id="balance-chart" height="80"></canvas> -->
                 </div>
                 <div class="card-icon shadow-primary bg-primary">
                     <i class="fas fa-dollar-sign"></i>
@@ -74,7 +74,7 @@
         <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card card-statistic-2">
                 <div class="card-chart">
-                    <canvas id="sales-chart" height="80"></canvas>
+                    <!-- <canvas id="sales-chart" height="80"></canvas> -->
                 </div>
                 <div class="card-icon shadow-primary bg-primary">
                     <i class="fas fa-shopping-bag"></i>
@@ -308,6 +308,68 @@
                             </div>
                         </div>
                     </div>
+                    <!-- <div class="owl-carousel owl-theme" id="users-carousel">
+                      <div>
+                        <div class="user-item">
+                          <img alt="image" src="assets/img/avatar/avatar-1.png" class="img-fluid">
+                          <div class="user-details">
+                            <div class="user-name">Hasan Basri</div>
+                            <div class="text-job text-muted">Web Developer</div>
+                            <div class="user-cta">
+                              <button class="btn btn-primary follow-btn" data-follow-action="alert('user1 followed');" data-unfollow-action="alert('user1 unfollowed');">Follow</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                      <div>
+                        <div class="user-item">
+                          <img alt="image" src="assets/img/avatar/avatar-2.png" class="img-fluid">
+                          <div class="user-details">
+                            <div class="user-name">Kusnaedi</div>
+                            <div class="text-job text-muted">Mobile Developer</div>
+                            <div class="user-cta">
+                              <button class="btn btn-primary follow-btn" data-follow-action="alert('user2 followed');" data-unfollow-action="alert('user2 unfollowed');">Follow</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                      <div>
+                        <div class="user-item">
+                          <img alt="image" src="assets/img/avatar/avatar-3.png" class="img-fluid">
+                          <div class="user-details">
+                            <div class="user-name">Bagus Dwi Cahya</div>
+                            <div class="text-job text-muted">UI Designer</div>
+                            <div class="user-cta">
+                              <button class="btn btn-danger following-btn" data-unfollow-action="alert('user3 unfollowed');" data-follow-action="alert('user3 followed');">Following</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                      <div>
+                        <div class="user-item">
+                          <img alt="image" src="assets/img/avatar/avatar-4.png" class="img-fluid">
+                          <div class="user-details">
+                            <div class="user-name">Wildan Ahdian</div>
+                            <div class="text-job text-muted">Project Manager</div>
+                            <div class="user-cta">
+                              <button class="btn btn-primary follow-btn" data-follow-action="alert('user4 followed');" data-unfollow-action="alert('user4 unfollowed');">Follow</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                      <div>
+                        <div class="user-item">
+                          <img alt="image" src="assets/img/avatar/avatar-5.png" class="img-fluid">
+                          <div class="user-details">
+                            <div class="user-name">Deden Febriansyah</div>
+                            <div class="text-job text-muted">IT Support</div>
+                            <div class="user-cta">
+                              <button class="btn btn-primary follow-btn" data-follow-action="alert('user5 followed');" data-unfollow-action="alert('user5 unfollowed');">Follow</button>
+                            </div>
+                          </div>  
+                        </div>
+                      </div>
+                    </div> -->
                 </div>
             </div>
         </div>

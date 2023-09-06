@@ -87,6 +87,8 @@
 
     <!-- Page Specific JS File -->
     <script src="assets/js/page/index.js"></script>
+    <script src="assets/js/page/components-user.js"></script>
+
 
     <!-- Template JS File -->
     <script src="assets/js/scripts.js"></script>
