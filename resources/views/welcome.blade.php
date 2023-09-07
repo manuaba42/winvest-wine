@@ -8,7 +8,7 @@
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Total Admin</h4>
+                        <h4>Total Wine Portofolio</h4>
                     </div>
                     <div class="card-body">
                         10
@@ -23,7 +23,8 @@
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>News</h4>
+                        <h4>Total value
+                        </h4>
                     </div>
                     <div class="card-body">
                         42
@@ -38,7 +39,8 @@
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Reports</h4>
+                        <h4>Growth (%) 
+                        </h4>
                     </div>
                     <div class="card-body">
                         1,201
@@ -53,7 +55,7 @@
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Online Users</h4>
+                        <h4>Last Market Price</h4>
                     </div>
                     <div class="card-body">
                         47
@@ -229,7 +231,7 @@
                                     </div>
                                     <div class="text-muted text-small">67 Sales</div>
                                     <div class="product-cta">
-                                        <a href="#" class="btn btn-primary">Detail</a>
+                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
                                     </div>
                                 </div>
                             </div>
@@ -250,7 +252,7 @@
                                     </div>
                                     <div class="text-muted text-small">86 Sales</div>
                                     <div class="product-cta">
-                                        <a href="#" class="btn btn-primary">Detail</a>
+                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
                                     </div>
                                 </div>
                             </div>
@@ -271,7 +273,7 @@
                                     </div>
                                     <div class="text-muted text-small">63 Sales</div>
                                     <div class="product-cta">
-                                        <a href="#" class="btn btn-primary">Detail</a>
+                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
                                     </div>
                                 </div>
                             </div>

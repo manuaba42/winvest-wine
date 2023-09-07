@@ -23,3 +23,4 @@ Route::get('/', function () {
 Route::get('/profile', [ProfileController::class, 'index']);
 Route::get('/list-wine', [ProductController::class, 'index']);
 Route::get('/contract', [ContractController::class, 'index']);
+Route::get('/detail-wine', [ProductController::class, 'detailWine']);

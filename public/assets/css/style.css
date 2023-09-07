@@ -1714,7 +1714,7 @@ h6 .badge {
         background-color: #fff;
         color: #6c757d; }
         .nav-collapse .navbar-nav .nav-item .nav-link:hover {
-          background-color: #fcfcfd;
+          background-color: #fdfcfc;
           color: #E88E6D; }
       .nav-collapse .navbar-nav .nav-item:focus > a, .nav-collapse .navbar-nav .nav-item.active > a {
         background-color: #E88E6D;
@@ -2423,7 +2423,7 @@ body.sidebar-mini .main-sidebar {
   body.sidebar-mini .main-sidebar .sidebar-menu li:hover > ul.dropdown-menu {
     display: block !important; }
     body.sidebar-mini .main-sidebar .sidebar-menu li:hover > ul.dropdown-menu li:hover > a {
-      background-color: #fcfcfd; }
+      background-color: #fdfcfc; }
     body.sidebar-mini .main-sidebar .sidebar-menu li:hover > ul.dropdown-menu li .dropdown-menu {
       left: 200px;
       padding: 0; }
@@ -2556,7 +2556,7 @@ body.layout-3 .navbar.navbar-secondary {
         font-size: 12px;
         right: 15px; }
     body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu .nav-item:hover > .nav-link {
-      background-color: #fcfcfd;
+      background-color: #fdfcfc;
       color: #191d21; }
     body.layout-3 .navbar.navbar-secondary .navbar-nav > .nav-item .dropdown-menu .nav-item:hover > .dropdown-menu {
       display: block !important;
@@ -2635,13 +2635,13 @@ body.layout-3 .main-footer {
         margin-top: 3px;
         width: 100%; }
       .main-sidebar .sidebar-menu li a:hover {
-        background-color: #fcfcfd; }
+        background-color: #fdfcfc; }
     .main-sidebar .sidebar-menu li.active a {
       color: #E88E6D;
       font-weight: 600;
-      background-color: #fcfcfd; }
+      background-color: #fdfcfc; }
     .main-sidebar .sidebar-menu li.active ul.dropdown-menu {
-      background-color: #fcfcfd; }
+      background-color: #fdfcfc; }
     .main-sidebar .sidebar-menu li a.has-dropdown:after {
       content: "";
       font-family: 'Font Awesome 5 Free';
@@ -2655,7 +2655,7 @@ body.layout-3 .main-footer {
     .main-sidebar .sidebar-menu li.active > ul.dropdown-menu {
       display: block; }
       .main-sidebar .sidebar-menu li.active > ul.dropdown-menu li a:hover {
-        background-color: #fcfcfd; }
+        background-color: #fdfcfc; }
     .main-sidebar .sidebar-menu li ul.dropdown-menu {
       padding: 0;
       margin: 0;
