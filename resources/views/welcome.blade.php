@@ -39,7 +39,7 @@
                 </div>
                 <div class="card-wrap">
                     <div class="card-header">
-                        <h4>Growth (%) 
+                        <h4>Growth (%)
                         </h4>
                     </div>
                     <div class="card-body">
@@ -280,67 +280,67 @@
                         </div>
                     </div>
                     <!-- <div class="owl-carousel owl-theme" id="users-carousel">
-                              <div>
-                                <div class="user-item">
-                                  <img alt="image" src="assets/img/avatar/avatar-1.png" class="img-fluid">
-                                  <div class="user-details">
-                                    <div class="user-name">Hasan Basri</div>
-                                    <div class="text-job text-muted">Web Developer</div>
-                                    <div class="user-cta">
-                                      <button class="btn btn-primary follow-btn" data-follow-action="alert('user1 followed');" data-unfollow-action="alert('user1 unfollowed');">Follow</button>
+                                  <div>
+                                    <div class="user-item">
+                                      <img alt="image" src="assets/img/avatar/avatar-1.png" class="img-fluid">
+                                      <div class="user-details">
+                                        <div class="user-name">Hasan Basri</div>
+                                        <div class="text-job text-muted">Web Developer</div>
+                                        <div class="user-cta">
+                                          <button class="btn btn-primary follow-btn" data-follow-action="alert('user1 followed');" data-unfollow-action="alert('user1 unfollowed');">Follow</button>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                              <div>
-                                <div class="user-item">
-                                  <img alt="image" src="assets/img/avatar/avatar-2.png" class="img-fluid">
-                                  <div class="user-details">
-                                    <div class="user-name">Kusnaedi</div>
-                                    <div class="text-job text-muted">Mobile Developer</div>
-                                    <div class="user-cta">
-                                      <button class="btn btn-primary follow-btn" data-follow-action="alert('user2 followed');" data-unfollow-action="alert('user2 unfollowed');">Follow</button>
+                                  <div>
+                                    <div class="user-item">
+                                      <img alt="image" src="assets/img/avatar/avatar-2.png" class="img-fluid">
+                                      <div class="user-details">
+                                        <div class="user-name">Kusnaedi</div>
+                                        <div class="text-job text-muted">Mobile Developer</div>
+                                        <div class="user-cta">
+                                          <button class="btn btn-primary follow-btn" data-follow-action="alert('user2 followed');" data-unfollow-action="alert('user2 unfollowed');">Follow</button>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                              <div>
-                                <div class="user-item">
-                                  <img alt="image" src="assets/img/avatar/avatar-3.png" class="img-fluid">
-                                  <div class="user-details">
-                                    <div class="user-name">Bagus Dwi Cahya</div>
-                                    <div class="text-job text-muted">UI Designer</div>
-                                    <div class="user-cta">
-                                      <button class="btn btn-danger following-btn" data-unfollow-action="alert('user3 unfollowed');" data-follow-action="alert('user3 followed');">Following</button>
+                                  <div>
+                                    <div class="user-item">
+                                      <img alt="image" src="assets/img/avatar/avatar-3.png" class="img-fluid">
+                                      <div class="user-details">
+                                        <div class="user-name">Bagus Dwi Cahya</div>
+                                        <div class="text-job text-muted">UI Designer</div>
+                                        <div class="user-cta">
+                                          <button class="btn btn-danger following-btn" data-unfollow-action="alert('user3 unfollowed');" data-follow-action="alert('user3 followed');">Following</button>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                              <div>
-                                <div class="user-item">
-                                  <img alt="image" src="assets/img/avatar/avatar-4.png" class="img-fluid">
-                                  <div class="user-details">
-                                    <div class="user-name">Wildan Ahdian</div>
-                                    <div class="text-job text-muted">Project Manager</div>
-                                    <div class="user-cta">
-                                      <button class="btn btn-primary follow-btn" data-follow-action="alert('user4 followed');" data-unfollow-action="alert('user4 unfollowed');">Follow</button>
+                                  <div>
+                                    <div class="user-item">
+                                      <img alt="image" src="assets/img/avatar/avatar-4.png" class="img-fluid">
+                                      <div class="user-details">
+                                        <div class="user-name">Wildan Ahdian</div>
+                                        <div class="text-job text-muted">Project Manager</div>
+                                        <div class="user-cta">
+                                          <button class="btn btn-primary follow-btn" data-follow-action="alert('user4 followed');" data-unfollow-action="alert('user4 unfollowed');">Follow</button>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                              <div>
-                                <div class="user-item">
-                                  <img alt="image" src="assets/img/avatar/avatar-5.png" class="img-fluid">
-                                  <div class="user-details">
-                                    <div class="user-name">Deden Febriansyah</div>
-                                    <div class="text-job text-muted">IT Support</div>
-                                    <div class="user-cta">
-                                      <button class="btn btn-primary follow-btn" data-follow-action="alert('user5 followed');" data-unfollow-action="alert('user5 unfollowed');">Follow</button>
+                                  <div>
+                                    <div class="user-item">
+                                      <img alt="image" src="assets/img/avatar/avatar-5.png" class="img-fluid">
+                                      <div class="user-details">
+                                        <div class="user-name">Deden Febriansyah</div>
+                                        <div class="text-job text-muted">IT Support</div>
+                                        <div class="user-cta">
+                                          <button class="btn btn-primary follow-btn" data-follow-action="alert('user5 followed');" data-unfollow-action="alert('user5 unfollowed');">Follow</button>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
-                                </div>
-                              </div>
-                            </div> -->
+                                </div> -->
                 </div>
             </div>
         </div>
@@ -432,7 +432,8 @@
                 <div class="card-header">
                     <h4>Transactions</h4>
                     <div class="card-header-action">
-                        <a href="#" class="btn btn-danger">View More <i class="fas fa-chevron-right"></i></a>
+                        <a href="/transaction-list" class="btn btn-danger">View More <i
+                                class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
                 <div class="card-body p-0">

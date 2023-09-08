@@ -18,15 +18,15 @@
                                 <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
                             </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block w-100" src="assets/img/news/img01.jpg" alt="First slide">
+                            <div class="carousel-inner" style="text-align:center">
+                                <div class="carousel-item active" >
+                                    <img style=" height: 400px; width: auto;" src="https://www.wine-searcher.com/images/labels/56/99/10435699.jpg" alt="First slide">
                                 </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/img/news/img07.jpg" alt="Second slide">
+                                <div class="carousel-item" >
+                                    <img style=" height: 400px; width: auto;" src="https://www.wine-searcher.com/images/labels/28/50/10702850.jpg" alt="Second slide">
                                 </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="assets/img/news/img08.jpg" alt="Third slide">
+                                <div class="carousel-item" >
+                                    <img style=" height: 400px; width: auto;" src="https://www.wine-searcher.com/images/labels/63/51/10456351.jpg" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
@@ -146,13 +146,13 @@
                                         <h4>Highlights</h4>
                                     </div>
                                     <div class="card-body">
-                                        <p><i class="fas fa-wine-glass-alt"></i><span style="margin-left: 2%">From
+                                        <p><i class="fas fa-flag"></i><span style="margin-left: 2%">From
                                                 Sauternes, France</span></p>
-                                        <p><i class="fas fa-wine-glass-alt"></i><span style="margin-left: 2%">Dessert Wine
+                                        <p><i class="fas fa-utensils"></i><span style="margin-left: 2%">Dessert Wine
                                                 – Lush and Balanced</span></p>
-                                        <p><i class="fas fa-wine-glass-alt"></i><span style="margin-left: 2%">Sauvignon
+                                        <p><i class="fas fa-apple-alt"></i><span style="margin-left: 2%">Sauvignon
                                                 Blanc - Semillon</span></p>
-                                        <p><i class="fas fa-wine-glass-alt"></i><span style="margin-left: 2%">Pairs well
+                                        <p><i class="fas fa-equals"></i><span style="margin-left: 2%">Pairs well
                                                 with Blue Cheeses</span></p>
                                         <div class="alert alert-info" style="background-color: #fef1d2; color: #6c757d">
                                             This wine has won many awards: the 2011 vintage was awarded Gold from the The
@@ -176,11 +176,11 @@
                                     </div>
                                     <div class="card-body">
 
-                                        <h5><span class="badge badge-secondary" style="margin-right: 2%">New</span>About the Product</h5>
+                                        <h5><span class="badge badge-secondary" style="margin-right: 2%"><i class="fas fa-wine-bottle"></i></span>About the Product</h5>
                                         <li class="media">
                                             <div class="media-body" style="margin: 4% 0">
                                                 <div class="text-small text-muted">Region or Appellation</div>
-                                                <div class="media-title"><a href="#">Sauternes</a></div>
+                                                <div class="media-title"><a>Sauternes</a></div>
                                                 <div class="text-small text-muted">Bordeaux / France</div>
                                             </div>
                                      
@@ -188,53 +188,53 @@
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Producer Notes</div>
-                                                <div class="media-title"><a href="#">Château Rieussec’s second wine is selected according to the same standards as the first wine. Its character consistently reveals a beautiful aromatic range dominated by citrus flavours. Carmes de Rieussec’s name is a reference to the Carmelite monks in Langon, who owned the Rieussec estate in the 18th century.</a></div>
+                                                <div class="media-title"><a>Château Rieussec’s second wine is selected according to the same standards as the first wine. Its character consistently reveals a beautiful aromatic range dominated by citrus flavours. Carmes de Rieussec’s name is a reference to the Carmelite monks in Langon, who owned the Rieussec estate in the 18th century.</a></div>
                                             </div>
                                         </li>
 
-                                        <h5><span class="badge badge-secondary" style="margin-right: 2%">New</span>Analytical Data</h5>
+                                        <h5><span class="badge badge-secondary" style="margin-right: 2%"><i class="fas fa-chart-line"></i></span>Analytical Data</h5>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Alcohol ABV</div>
-                                                <div class="media-title"><a href="#">13.5%</a></div>
+                                                <div class="media-title"><a>13.5%</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Sweetness</div>
-                                                <div class="media-title"><a href="#">Dry</a></div>
+                                                <div class="media-title"><a>Dry</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Blend</div>
-                                                <div class="media-title"><a href="#">Semillon & Sauvignon Blanc</a></div>
+                                                <div class="media-title"><a>Semillon & Sauvignon Blanc</a></div>
                                             </div>
                                         </li>
 
-                                        <h5><span class="badge badge-secondary" style="margin-right: 2%">New</span>Production Attributes</h5>
+                                        <h5><span class="badge badge-secondary" style="margin-right: 2%"><i class="fas fa-industry"></i></span>Production Attributes</h5>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Maturation</div>
-                                                <div class="media-title"><a href="#">Oaked</a></div>
+                                                <div class="media-title"><a>Oaked</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Ownership</div>
-                                                <div class="media-title"><a href="#">Domaines Barons de Rothschild</a></div>
+                                                <div class="media-title"><a>Domaines Barons de Rothschild</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Closure Type</div>
-                                                <div class="media-title"><a href="#">Can</a></div>
+                                                <div class="media-title"><a>Can</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Ageing</div>
-                                                <div class="media-title"><a href="#">Ageing in oak barrels 18 months.</a></div>
+                                                <div class="media-title"><a>Ageing in oak barrels 18 months.</a></div>
                                             </div>
                                         </li>
                                     </div>
