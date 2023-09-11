@@ -53,7 +53,7 @@
                         <p>Sauternes, France</p>
                         <div class="row" style="margin: 0px 16px; justify-content: space-between; align-items: center">
                             <div class="row">
-                                <h1>423,180</h1>
+                                <h1><span>$</span>423,180</h1>
                                 {{-- <p style="margin: 0px 8px;"><del>500,00</del></p> --}}
                                 <span style="margin: 0px 8px;" class="text-muted"><span class="text-success"><i
                                             class="fas fa-caret-up"></i></span> 19%</span>
@@ -74,9 +74,6 @@
                                   <img class="ml-3" src="assets/img/example-image-50.jpg" alt="Generic placeholder image">
                                 </div> --}}
 
-
-
-
                         </div>
                         <p><i class="fas fa-wine-glass-alt"></i><span style="margin-left: 2%">Dessert - Lush and
                                 Balanced</span></p>
@@ -88,7 +85,7 @@
                                     <h4>Learn more</h4>
                                 </div>
                                 <div class="accordion-body collapse show" id="panel-body-1" data-parent="#accordion">
-                                    <p class="mb-0">Critic tasting note: (2017 vintage) "Almost entirely Sémillon, this
+                                    <p class="mb-0" style="text-align: justify;">Critic tasting note: (2017 vintage) "Almost entirely Sémillon, this
                                         wine is rich but not heavy. Lightness comes with the surprisingly intense acidity
                                         that balances the rich apricot and honey flavors. For a second wine, this has
                                         impressive quality, ready to drink from 2022. Roger Voss" - 92/100, Wine Enthusiast
@@ -154,15 +151,15 @@
                                                 Blanc - Semillon</span></p>
                                         <p><i class="fas fa-equals"></i><span style="margin-left: 2%">Pairs well
                                                 with Blue Cheeses</span></p>
-                                        <div class="alert alert-info" style="background-color: #fef1d2; color: #6c757d">
+                                        <div class="alert alert-info" style="background-color: #fef1d2; color: #6c757d; text-align: justify;">
                                             This wine has won many awards: the 2011 vintage was awarded Gold from the The
                                             TEXSOM International Wine Awards, and the 2010 vintage was awarded Gold from the
                                             Berlin Wine Trophy.
                                         </div>
-                                        <div class="alert alert-info" style="background-color: #fef1d2; color: #6c757d">
+                                        <div class="alert alert-info" style="background-color: #fef1d2; color: #6c757d; text-align: justify;">
                                             This Sauternes wine has received good scores from various critics.
                                         </div>
-                                        <div class="alert alert-info" style="background-color: #fef1d2; color: #6c757d">
+                                        <div class="alert alert-info" style="background-color: #fef1d2; color: #6c757d; text-align: justify;">
                                             One of the more sought-after wines from this region. Greater numbers of users
                                             have been searching for this wine compared to a year ago.
                                         </div>
@@ -180,7 +177,7 @@
                                         <li class="media">
                                             <div class="media-body" style="margin: 4% 0">
                                                 <div class="text-small text-muted">Region or Appellation</div>
-                                                <div class="media-title"><a>Sauternes</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>Sauternes</a></div>
                                                 <div class="text-small text-muted">Bordeaux / France</div>
                                             </div>
                                      
@@ -188,7 +185,7 @@
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Producer Notes</div>
-                                                <div class="media-title"><a>Château Rieussec’s second wine is selected according to the same standards as the first wine. Its character consistently reveals a beautiful aromatic range dominated by citrus flavours. Carmes de Rieussec’s name is a reference to the Carmelite monks in Langon, who owned the Rieussec estate in the 18th century.</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>Château Rieussec’s second wine is selected according to the same standards as the first wine. Its character consistently reveals a beautiful aromatic range dominated by citrus flavours. Carmes de Rieussec’s name is a reference to the Carmelite monks in Langon, who owned the Rieussec estate in the 18th century.</a></div>
                                             </div>
                                         </li>
 
@@ -196,19 +193,19 @@
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Alcohol ABV</div>
-                                                <div class="media-title"><a>13.5%</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>13.5%</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Sweetness</div>
-                                                <div class="media-title"><a>Dry</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>Dry</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Blend</div>
-                                                <div class="media-title"><a>Semillon & Sauvignon Blanc</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>Semillon & Sauvignon Blanc</a></div>
                                             </div>
                                         </li>
 
@@ -216,25 +213,25 @@
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Maturation</div>
-                                                <div class="media-title"><a>Oaked</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>Oaked</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Ownership</div>
-                                                <div class="media-title"><a>Domaines Barons de Rothschild</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>Domaines Barons de Rothschild</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Closure Type</div>
-                                                <div class="media-title"><a>Can</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>Can</a></div>
                                             </div>
                                         </li>
                                         <li class="media" style="margin: 4% 0">
                                             <div class="media-body">
                                                 <div class="text-small text-muted">Ageing</div>
-                                                <div class="media-title"><a>Ageing in oak barrels 18 months.</a></div>
+                                                <div class="media-title" style="text-align: justify;"><a>Ageing in oak barrels 18 months.</a></div>
                                             </div>
                                         </li>
                                     </div>
@@ -308,12 +305,12 @@
                         <div class="card">
                             <div class="card-header">
                                 <h4>Statistics</h4>
-                                <div class="card-header-action">
+                                {{-- <div class="card-header-action">
                                     <div class="btn-group">
                                         <a href="#" class="btn btn-primary">Week</a>
                                         <a href="#" class="btn">Month</a>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="card-body">
                                 <div class="chartjs-size-monitor"

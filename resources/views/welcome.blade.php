@@ -217,7 +217,7 @@
                     <div class="owl-carousel owl-theme" id="products-carousel">
                         <div>
                             <div class="product-item pb-3">
-                                <div class="product-image">
+                                <div class="product-image" style="height: 5%">
                                     <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
                                 </div>
                                 <div class="product-details">
@@ -238,7 +238,7 @@
                         </div>
                         <div>
                             <div class="product-item">
-                                <div class="product-image">
+                                <div class="product-image" style="height: 5%">
                                     <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
                                 </div>
                                 <div class="product-details">
@@ -259,7 +259,7 @@
                         </div>
                         <div>
                             <div class="product-item">
-                                <div class="product-image">
+                                <div class="product-image" style="height: 5%">
                                     <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
                                 </div>
                                 <div class="product-details">
