@@ -29,7 +29,7 @@
 
                                     <td>July 19, 2018</td>
                                     <td>
-                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -40,7 +40,7 @@
 
                                     <td>July 21, 2018</td>
                                     <td>
-                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -50,7 +50,7 @@
 
                                     <td>July 22, 2018</td>
                                     <td>
-                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -61,7 +61,7 @@
 
                                     <td>July 22, 2018</td>
                                     <td>
-                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -71,7 +71,7 @@
 
                                     <td>July 28, 2018</td>
                                     <td>
-                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </td>
                                 </tr>
                             </tbody>

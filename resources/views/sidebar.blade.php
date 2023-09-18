@@ -15,7 +15,7 @@
                     <li class=active><a class="nav-link" href="/">Investment Dashboard</a></li>
                 </ul>
             </li> --}}
-            <li><a class="nav-link" href="/"><i class="fas fa-fire"></i> <span>Dashboard</span></a>
+            <li><a class="nav-link" href="/user/dashboard"><i class="fas fa-fire"></i> <span>Dashboard</span></a>
             </li>
             {{-- <li class="menu-header">Product</li> --}}
             {{-- <li class="dropdown">

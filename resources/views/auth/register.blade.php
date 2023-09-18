@@ -16,9 +16,8 @@
                             </div>
 
                             <div class="card-body">
-                                <form 
-                                {{-- method="POST" --}} action="/login"
-                                >
+                                <form method="POST" action="/register-process">
+                                    @csrf
                                     <div class="row">
                                         <div class="form-group col-6">
                                             <label for="frist_name">First Name</label>

@@ -18,16 +18,24 @@ use App\Http\Controllers\AuthController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/login-process', [AuthController::class, 'login_process']);
+Route::get('/logout', [AuthController::class, 'logout']);
 
-Route::get('/profile', [ProfileController::class, 'index']);
-Route::get('/list-wine', [ProductController::class, 'index']);
-Route::get('/contract', [ContractController::class, 'index']);
-Route::get('/detail-wine', [ProductController::class, 'detailWine']);
-Route::get('/transaction-list', [TransactionController::class, 'index']);
-
-Route::get('/login', [AuthController::class, 'login']);
 Route::get('/register', [AuthController::class, 'register']);
-Route::get('/forgot-password', [AuthController::class, 'forgotPass']);
+Route::post('/register-process', [AuthController::class, 'register_process']);
+
+Route::group(['prefix' => 'user', 'middleware' => ['auth'], 'as' => 'user.'], function(){
+    Route::get('/dashboard', function () {
+        return view('welcome');
+    });
+    Route::get('/profile', [ProfileController::class, 'index']);
+    Route::get('/list-wine', [ProductController::class, 'index']);
+    Route::get('/contract', [ContractController::class, 'index']);
+    Route::get('/detail-wine', [ProductController::class, 'detailWine']);
+    Route::get('/transaction-list', [TransactionController::class, 'index']);
+    
+    
+    Route::get('/register', [AuthController::class, 'register']);
+    Route::get('/forgot-password', [AuthController::class, 'forgotPass']);
+});

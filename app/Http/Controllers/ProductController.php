@@ -8,8 +8,10 @@ class ProductController extends Controller
 {
     public function index(){
         return view('product.list_wine');
+        // return(redirect('/user/list-wine'));
     }
     public function detailWine(){
         return view('product.detail_wine');
+        // return(redirect('/user/detail-wine'));
     }
 }

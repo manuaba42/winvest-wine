@@ -93,7 +93,7 @@
                 <div class="card-body" id="top-5-scroll">
                     <ul class="list-unstyled list-unstyled-border">
                         <li class="media">
-                            <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png" alt="product">
+                            <img class="mr-3 rounded" width="20" src="{{ asset('assets/img/products/Cartuxa.png') }}" alt="product">
                             <div class="media-body">
                                 <div class="float-right">
                                     <div class="font-weight-600 text-muted text-small">86 Sales</div>
@@ -112,7 +112,7 @@
                             </div>
                         </li>
                         <li class="media">
-                            <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png" alt="product">
+                            <img class="mr-3 rounded" width="20" src="{{ asset('assets/img/products/Cartuxa.png') }}" alt="product">
                             <div class="media-body">
                                 <div class="float-right">
                                     <div class="font-weight-600 text-muted text-small">67 Sales</div>
@@ -131,7 +131,7 @@
                             </div>
                         </li>
                         <li class="media">
-                            <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png" alt="product">
+                            <img class="mr-3 rounded" width="20" src="{{ asset('assets/img/products/Cartuxa.png') }}" alt="product">
 
                             <div class="media-body">
                                 <div class="float-right">
@@ -151,7 +151,7 @@
                             </div>
                         </li>
                         <li class="media">
-                            <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png"
+                            <img class="mr-3 rounded" width="20" src="{{ asset('assets/img/products/Cartuxa.png') }}"
                                 alt="product">
 
                             <div class="media-body">
@@ -172,7 +172,7 @@
                             </div>
                         </li>
                         <li class="media">
-                            <img class="mr-3 rounded" width="20" src="assets/img/products/Cartuxa.png"
+                            <img class="mr-3 rounded" width="20" src="{{ asset('assets/img/products/Cartuxa.png') }}"
                                 alt="product">
 
                             <div class="media-body">
@@ -218,7 +218,7 @@
                         <div>
                             <div class="product-item pb-3">
                                 <div class="product-image" style="height: 5%">
-                                    <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
+                                    <img alt="image" src="{{ asset('assets/img/products/Cartuxa.png') }}" class="img-fluid">
                                 </div>
                                 <div class="product-details">
                                     <div class="product-name">Cartuxa 2018</div>
@@ -231,7 +231,7 @@
                                     </div>
                                     <div class="text-muted text-small">67 Sales</div>
                                     <div class="product-cta">
-                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </div>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@
                         <div>
                             <div class="product-item">
                                 <div class="product-image" style="height: 5%">
-                                    <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
+                                    <img alt="image" src="{{ asset('assets/img/products/Cartuxa.png') }}" class="img-fluid">
                                 </div>
                                 <div class="product-details">
                                     <div class="product-name">Peramanca 2015</div>
@@ -252,7 +252,7 @@
                                     </div>
                                     <div class="text-muted text-small">86 Sales</div>
                                     <div class="product-cta">
-                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </div>
                                 </div>
                             </div>
@@ -260,7 +260,7 @@
                         <div>
                             <div class="product-item">
                                 <div class="product-image" style="height: 5%">
-                                    <img alt="image" src="assets/img/products/Cartuxa.png" class="img-fluid">
+                                    <img alt="image" src="{{ asset('assets/img/products/Cartuxa.png') }}" class="img-fluid">
                                 </div>
                                 <div class="product-details">
                                     <div class="product-name">Javali 2011</div>
@@ -273,16 +273,16 @@
                                     </div>
                                     <div class="text-muted text-small">63 Sales</div>
                                     <div class="product-cta">
-                                        <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="owl-carousel owl-theme" id="users-carousel">
+                    {{-- <div class="owl-carousel owl-theme" id="users-carousel">
                                   <div>
                                     <div class="user-item">
-                                      <img alt="image" src="assets/img/avatar/avatar-1.png" class="img-fluid">
+                                      <img alt="image" src="{{ asset('assets/img/avatar/avatar-1.png') }}" class="img-fluid">
                                       <div class="user-details">
                                         <div class="user-name">Hasan Basri</div>
                                         <div class="text-job text-muted">Web Developer</div>
@@ -294,7 +294,7 @@
                                   </div>
                                   <div>
                                     <div class="user-item">
-                                      <img alt="image" src="assets/img/avatar/avatar-2.png" class="img-fluid">
+                                      <img alt="image" src="{{ asset('assets/img/avatar/avatar-2.png') }}" class="img-fluid">
                                       <div class="user-details">
                                         <div class="user-name">Kusnaedi</div>
                                         <div class="text-job text-muted">Mobile Developer</div>
@@ -306,7 +306,7 @@
                                   </div>
                                   <div>
                                     <div class="user-item">
-                                      <img alt="image" src="assets/img/avatar/avatar-3.png" class="img-fluid">
+                                      <img alt="image" src="{{ asset('assets/img/avatar/avatar-3.png') }}" class="img-fluid">
                                       <div class="user-details">
                                         <div class="user-name">Bagus Dwi Cahya</div>
                                         <div class="text-job text-muted">UI Designer</div>
@@ -318,7 +318,7 @@
                                   </div>
                                   <div>
                                     <div class="user-item">
-                                      <img alt="image" src="assets/img/avatar/avatar-4.png" class="img-fluid">
+                                      <img alt="image" src="{{ asset('assets/img/avatar/avatar-4.png') }}" class="img-fluid">
                                       <div class="user-details">
                                         <div class="user-name">Wildan Ahdian</div>
                                         <div class="text-job text-muted">Project Manager</div>
@@ -330,7 +330,7 @@
                                   </div>
                                   <div>
                                     <div class="user-item">
-                                      <img alt="image" src="assets/img/avatar/avatar-5.png" class="img-fluid">
+                                      <img alt="image" src="{{ asset('assets/img/avatar/avatar-5.png') }}" class="img-fluid">
                                       <div class="user-details">
                                         <div class="user-name">Deden Febriansyah</div>
                                         <div class="text-job text-muted">IT Support</div>
@@ -340,7 +340,7 @@
                                       </div>
                                     </div>
                                   </div>
-                                </div> -->
+                                </div> --}}
                 </div>
             </div>
         </div>
@@ -356,7 +356,7 @@
                             <ul class="list-unstyled list-unstyled-border list-unstyled-noborder mb-0">
                                 <li class="media">
                                     <img class="img-fluid mt-1 img-shadow"
-                                        src="assets/modules/flag-icon-css/flags/4x3/id.svg" alt="image"
+                                        src="{{ asset('assets/modules/flag-icon-css/flags/4x3/id.svg" alt="image"
                                         width="40">
                                     <div class="media-body ml-3">
                                         <div class="media-title">Indonesia</div>
@@ -366,7 +366,7 @@
                                 </li>
                                 <li class="media">
                                     <img class="img-fluid mt-1 img-shadow"
-                                        src="assets/modules/flag-icon-css/flags/4x3/my.svg" alt="image"
+                                        src="{{ asset('assets/modules/flag-icon-css/flags/4x3/my.svg" alt="image"
                                         width="40">
                                     <div class="media-body ml-3">
                                         <div class="media-title">Malaysia</div>
@@ -376,7 +376,7 @@
                                 </li>
                                 <li class="media">
                                     <img class="img-fluid mt-1 img-shadow"
-                                        src="assets/modules/flag-icon-css/flags/4x3/us.svg" alt="image"
+                                        src="{{ asset('assets/modules/flag-icon-css/flags/4x3/us.svg" alt="image"
                                         width="40">
                                     <div class="media-body ml-3">
                                         <div class="media-title">United States</div>
@@ -391,7 +391,7 @@
                             <ul class="list-unstyled list-unstyled-border list-unstyled-noborder mb-0">
                                 <li class="media">
                                     <img class="img-fluid mt-1 img-shadow"
-                                        src="assets/modules/flag-icon-css/flags/4x3/id.svg" alt="image"
+                                        src="{{ asset('assets/modules/flag-icon-css/flags/4x3/id.svg" alt="image"
                                         width="40">
                                     <div class="media-body ml-3">
                                         <div class="media-title">Indonesia</div>
@@ -401,7 +401,7 @@
                                 </li>
                                 <li class="media">
                                     <img class="img-fluid mt-1 img-shadow"
-                                        src="assets/modules/flag-icon-css/flags/4x3/ps.svg" alt="image"
+                                        src="{{ asset('assets/modules/flag-icon-css/flags/4x3/ps.svg" alt="image"
                                         width="40">
                                     <div class="media-body ml-3">
                                         <div class="media-title">Palestine</div>
@@ -411,7 +411,7 @@
                                 </li>
                                 <li class="media">
                                     <img class="img-fluid mt-1 img-shadow"
-                                        src="assets/modules/flag-icon-css/flags/4x3/de.svg" alt="image"
+                                        src="{{ asset('assets/modules/flag-icon-css/flags/4x3/de.svg" alt="image"
                                         width="40">
                                     <div class="media-body ml-3">
                                         <div class="media-title">Germany</div>
@@ -432,7 +432,7 @@
                 <div class="card-header">
                     <h4>Transactions</h4>
                     <div class="card-header-action">
-                        <a href="/transaction-list" class="btn btn-danger">View More <i
+                        <a href="/user/transaction-list" class="btn btn-danger">View More <i
                                 class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
@@ -456,7 +456,7 @@
                                 </td> --}}
                                 <td>July 19, 2018</td>
                                 <td>
-                                    <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                 </td>
                             </tr>
                             <tr>
@@ -469,7 +469,7 @@
                                 </td> --}}
                                 <td>July 21, 2018</td>
                                 <td>
-                                    <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                 </td>
                             </tr>
                             <tr>
@@ -481,7 +481,7 @@
                                 </td> --}}
                                 <td>July 22, 2018</td>
                                 <td>
-                                    <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                 </td>
                             </tr>
                             <tr>
@@ -494,7 +494,7 @@
                                 </td> --}}
                                 <td>July 22, 2018</td>
                                 <td>
-                                    <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                 </td>
                             </tr>
                             <tr>
@@ -506,7 +506,7 @@
                                 </td> --}}
                                 <td>July 28, 2018</td>
                                 <td>
-                                    <a href="/detail-wine" class="btn btn-primary">Detail</a>
+                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                 </td>
                             </tr>
                         </table>
