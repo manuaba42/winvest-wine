@@ -33,6 +33,24 @@
 
 <body>
 
+    {{-- @if ($message = Session::get('failed'))
+    <div class="alert alert-danger alert-dismissible show fade">
+        <div class="alert-body">
+          <button class="close" data-dismiss="alert">
+            <span>&times;</span>
+          </button>
+          {{ $message }}
+        </div>
+      </div>
+        <script>
+            Swal.fire('{{ $message }}')
+        </script>
+    @endif
+    @if ($message = Session::get('success'))
+        <script>
+            Swal.fire('{{ $message }}')
+        </script>
+    @endif --}}
     @yield('auth-content')
 
     <!-- General JS Scripts -->
@@ -53,7 +71,7 @@
     <script src="assets/js/custom.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    @if ($message = Session::get('failed'))
+    {{-- @if ($message = Session::get('failed'))
         <script>
             Swal.fire('{{ $message }}')
             
@@ -64,7 +82,7 @@
             Swal.fire('{{ $message }}')
             
         </script>
-    @endif
+    @endif --}}
 </body>
 
 </html>

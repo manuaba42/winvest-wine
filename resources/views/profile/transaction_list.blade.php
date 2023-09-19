@@ -13,68 +13,25 @@
                 <div class="card-body p-0">
                     <div class="table-responsive table-invoice">
                         <table class="table table-striped">
-                            <tbody>
+                            <tr>
+                                <th>Name Product</th>
+                                <th>Price</th>
+                           
+                                <th>Date</th>
+                                <th>Action</th>
+                            </tr>
+                                @foreach($data_wine as $wine)
                                 <tr>
-                                    <th>Name Product</th>
-                                    <th>Price</th>
-                                    <th>Year</th>
-                                    <th>Date</th>
-                                    <th>Action</th>
-                                </tr>
-                                <tr>
-                                    <td><a>Chateau Rieussec 'Les Carmes de Rieussec'
-                                        </a></td>
-                                    <td class="font-weight-600">$200</td>
-                                    <td class="font-weight-600">2002</td>
+                
+                                    <td><a>{{ $wine->wine }}</a></td>
+                                    <td class="font-weight-600">${{ number_format($wine->amounts, 2) }}</td>
+                                    <td>{{ \Carbon\Carbon::parse($wine->invoice->date_invoice)->format('F j, Y') }}</td>
 
-                                    <td>July 19, 2018</td>
                                     <td>
                                         <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </td>
-                                </tr>
-                                <tr>
-                                    <td><a>Chateau Fleur Cardinale
-                                        </a></td>
-                                    <td class="font-weight-600">$150</td>
-                                    <td class="font-weight-600">2003</td>
-
-                                    <td>July 21, 2018</td>
-                                    <td>
-                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><a>Chateau Clerc-Milon</a></td>
-                                    <td class="font-weight-600">$180</td>
-                                    <td class="font-weight-600">2002</td>
-
-                                    <td>July 22, 2018</td>
-                                    <td>
-                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><a>Chateau Mouton Rothschild
-                                        </a></td>
-                                    <td class="font-weight-600">$500</td>
-                                    <td class="font-weight-600">2000</td>
-
-                                    <td>July 22, 2018</td>
-                                    <td>
-                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><a>Veuve Clicquot Ponsardin La Grande&nbsp;Dame&nbsp;Brut</a></td>
-                                    <td class="font-weight-600">$250</td>
-                                    <td class="font-weight-600">1996</td>
-
-                                    <td>July 28, 2018</td>
-                                    <td>
-                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                    </td>
-                                </tr>
-                            </tbody>
+                                </tr> 
+                                @endforeach
                         </table>
                     </div>
                 </div>

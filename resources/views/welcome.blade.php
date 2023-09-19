@@ -215,69 +215,22 @@
                 </div>
                 <div class="card-body">
                     <div class="owl-carousel owl-theme" id="products-carousel">
+                        @foreach($data_wine as $wine)
                         <div>
                             <div class="product-item pb-3">
                                 <div class="product-image" style="height: 5%">
                                     <img alt="image" src="{{ asset('assets/img/products/Cartuxa.png') }}" class="img-fluid">
                                 </div>
                                 <div class="product-details">
-                                    <div class="product-name">Cartuxa 2018</div>
-                                    <div class="product-review">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="text-muted text-small">67 Sales</div>
+                                    <div class="product-name">{{ $wine->wine }}</div>
+                                    <div class="text-muted text-small">${{ number_format($wine->amounts, 2) }}</div>
                                     <div class="product-cta">
                                         <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <div class="product-item">
-                                <div class="product-image" style="height: 5%">
-                                    <img alt="image" src="{{ asset('assets/img/products/Cartuxa.png') }}" class="img-fluid">
-                                </div>
-                                <div class="product-details">
-                                    <div class="product-name">Peramanca 2015</div>
-                                    <div class="product-review">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half"></i>
-                                    </div>
-                                    <div class="text-muted text-small">86 Sales</div>
-                                    <div class="product-cta">
-                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="product-item">
-                                <div class="product-image" style="height: 5%">
-                                    <img alt="image" src="{{ asset('assets/img/products/Cartuxa.png') }}" class="img-fluid">
-                                </div>
-                                <div class="product-details">
-                                    <div class="product-name">Javali 2011</div>
-                                    <div class="product-review">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="far fa-star"></i>
-                                    </div>
-                                    <div class="text-muted text-small">63 Sales</div>
-                                    <div class="product-cta">
-                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
                     </div>
                     {{-- <div class="owl-carousel owl-theme" id="users-carousel">
                                   <div>
@@ -442,73 +395,22 @@
                             <tr>
                                 <th>Name Product</th>
                                 <th>Price</th>
-                                <th>Year</th>
+                           
                                 <th>Date</th>
                                 <th>Action</th>
                             </tr>
-                            <tr>
-                                <td><a>Chateau Rieussec 'Les Carmes de Rieussec'
-                                    </a></td>
-                                <td class="font-weight-600">$200</td>
-                                <td class="font-weight-600">2002</td>
-                                {{-- <td>
-                                    <div class="badge badge-warning">Unpaid</div>
-                                </td> --}}
-                                <td>July 19, 2018</td>
-                                <td>
-                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a>Chateau Fleur Cardinale
-                                    </a></td>
-                                <td class="font-weight-600">$150</td>
-                                <td class="font-weight-600">2003</td>
-                                {{-- <td>
-                                    <div class="badge badge-success">Paid</div>
-                                </td> --}}
-                                <td>July 21, 2018</td>
-                                <td>
-                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a>Chateau Clerc-Milon</a></td>
-                                <td class="font-weight-600">$180</td>
-                                <td class="font-weight-600">2002</td>
-                                {{-- <td>
-                                    <div class="badge badge-warning">Unpaid</div>
-                                </td> --}}
-                                <td>July 22, 2018</td>
-                                <td>
-                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a>Chateau Mouton Rothschild
-                                    </a></td>
-                                <td class="font-weight-600">$500</td>
-                                <td class="font-weight-600">2000</td>
-                                {{-- <td>
-                                    <div class="badge badge-warning">Unpaid</div>
-                                </td> --}}
-                                <td>July 22, 2018</td>
-                                <td>
-                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><a>Veuve Clicquot Ponsardin La Grande Dame Brut</a></td>
-                                <td class="font-weight-600">$250</td>
-                                <td class="font-weight-600">1996</td>
-                                {{-- <td>
-                                    <div class="badge badge-success">Paid</div>
-                                </td> --}}
-                                <td>July 28, 2018</td>
-                                <td>
-                                    <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
-                                </td>
-                            </tr>
+                                @foreach($data_wine as $wine)
+                                <tr>
+                
+                                    <td><a>{{ $wine->wine }}</a></td>
+                                    <td class="font-weight-600">${{ number_format($wine->amounts, 2) }}</td>
+                                    <td>{{ \Carbon\Carbon::parse($wine->invoice->date_invoice)->format('F j, Y') }}</td>
+
+                                    <td>
+                                        <a href="/user/detail-wine" class="btn btn-primary">Detail</a>
+                                    </td>
+                                </tr> 
+                                @endforeach
                         </table>
                     </div>
                 </div>
@@ -564,3 +466,14 @@
         </div> --}}
     </div>
 @endsection
+
+@push('scripts')
+    <script>
+        $(document).ready(function() {
+            $("#products-carousel").owlCarousel({
+                loop: false, // Nonaktifkan looping
+                items: 1, // Menampilkan 1 item pada satu waktu
+            });
+        });
+    </script>
+@endpush

@@ -250,7 +250,7 @@
                                         <ul class="list-unstyled list-unstyled-border list-unstyled-noborder">
                                             <li class="media">
                                                 <img alt="image" class="mr-3 rounded-circle" width="70"
-                                                    src="assets/img/avatar/avatar-1.png">
+                                                    src="{{ asset('assets/img/avatar/avatar-1.png') }}">
                                                 <div class="media-body">
 
                                                     <div class="media-title mb-1">Rizal Fakhri</div>
@@ -266,7 +266,7 @@
                                             </li>
                                             <li class="media">
                                                 <img alt="image" class="mr-3 rounded-circle" width="70"
-                                                    src="assets/img/avatar/avatar-2.png">
+                                                    src="{{ asset('assets/img/avatar/avatar-2.png') }}">
                                                 <div class="media-body">
 
                                                     <div class="media-title mb-1">Bambang Uciha</div>
@@ -282,7 +282,7 @@
                                             </li>
                                             <li class="media">
                                                 <img alt="image" class="mr-3 rounded-circle" width="70"
-                                                    src="assets/img/avatar/avatar-3.png">
+                                                    src="{{ asset('assets/img/avatar/avatar-3.png') }}">
                                                 <div class="media-body">
 
                                                     <div class="media-title mb-1">Ujang Maman</div>

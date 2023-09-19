@@ -25,9 +25,9 @@
                                         <div class="invalid-feedback">
                                             Please fill in your email
                                         </div>
-                                        @error('email')
+                                        {{-- @error('email')
                                             <small>{{ $message }}</small>
-                                        @enderror
+                                        @enderror --}}
                                     </div>
 
                                     <div class="form-group">
@@ -44,18 +44,20 @@
                                         <div class="invalid-feedback">
                                             please fill in your password
                                         </div>
-                                        @error('password')
+                                        {{-- @error('password')
                                             <small>{{ $message }}</small>
-                                        @enderror
+                                        @enderror --}}
                                     </div>
-
-                                    {{-- <div class="form-group">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" name="remember" class="custom-control-input"
-                                                tabindex="3" id="remember-me">
-                                            <label class="custom-control-label" for="remember-me">Remember Me</label>
+                                    @if ($message = Session::get('failed'))  
+                                    <div class="alert alert-danger alert-dismissible show fade">
+                                        <div class="alert-body">
+                                            <button class="close" data-dismiss="alert">
+                                                <span>&times;</span>
+                                            </button>
+                                            {{ $message }}
                                         </div>
-                                    </div> --}}
+                                    </div>
+                                    @endif
 
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">

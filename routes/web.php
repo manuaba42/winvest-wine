@@ -6,6 +6,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ContractController;
 use App\Http\Controllers\TransactionController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,9 +27,10 @@ Route::get('/register', [AuthController::class, 'register']);
 Route::post('/register-process', [AuthController::class, 'register_process']);
 
 Route::group(['prefix' => 'user', 'middleware' => ['auth'], 'as' => 'user.'], function(){
-    Route::get('/dashboard', function () {
-        return view('welcome');
-    });
+    // Route::get('/dashboard', function () {
+    //     return view('welcome');
+    // });
+    Route::get('/dashboard', [DashboardController::class, 'index']);
     Route::get('/profile', [ProfileController::class, 'index']);
     Route::get('/list-wine', [ProductController::class, 'index']);
     Route::get('/contract', [ContractController::class, 'index']);

@@ -6,7 +6,7 @@ use App\Models\WineInvoice;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class TransactionController extends Controller
+class DashboardController extends Controller
 {
     public function index(){
         $userId = Auth::id();
@@ -14,7 +14,8 @@ class TransactionController extends Controller
                 $query->where('id', $userId);
             })->get();
             
-        return view('profile.transaction_list')->with('data_wine', $data_wine);
-        // return(redirect('/user/transaction-list'));
+        return view('welcome')->with('data_wine', $data_wine);
+
+        // return redirect('/user/dashboard')->with('data_wine', $data_wine);
     }
 }

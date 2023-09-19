@@ -30,22 +30,22 @@
                 </div>
                 <div class="search-item">
                     <a href="#">
-                        <img class="mr-3 rounded" width="30" src="{{ asset('assets/img/products/product-3-50.png') }}"
-                            alt="product">
+                        <img class="mr-3 rounded" width="30"
+                            src="{{ asset('assets/img/products/product-3-50.png') }}" alt="product">
                         oPhone S9 Limited Edition
                     </a>
                 </div>
                 <div class="search-item">
                     <a href="#">
-                        <img class="mr-3 rounded" width="30" src="{{ asset('assets/img/products/product-2-50.png') }}"
-                            alt="product">
+                        <img class="mr-3 rounded" width="30"
+                            src="{{ asset('assets/img/products/product-2-50.png') }}" alt="product">
                         Drone X2 New Gen-7
                     </a>
                 </div>
                 <div class="search-item">
                     <a href="#">
-                        <img class="mr-3 rounded" width="30" src="{{ asset('assets/img/products/product-1-50.png') }}"
-                            alt="product">
+                        <img class="mr-3 rounded" width="30"
+                            src="{{ asset('assets/img/products/product-1-50.png') }}" alt="product">
                         Headphone Blitz
                     </a>
                 </div>
@@ -201,12 +201,22 @@
         </li> --}}
         <li class="dropdown"><a href="#" data-toggle="dropdown"
                 class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-                <img alt="image" src="{{ asset('assets/img/avatar/avatar-1.png') }}" class="rounded-circle mr-1">
-                <div class="d-sm-none d-lg-inline-block">Hi, Budi</div>
+                @if (Auth::user()->profile_image != null)
+                    <img alt="image" src="{{ Auth::user()->image }}" class="rounded-circle mr-1">
+                @else
+                    <img alt="image" src="{{ asset('assets/img/avatar/avatar-1.png') }}" class="rounded-circle mr-1">
+                @endif
+                <div class="d-sm-none d-lg-inline-block">Hi,
+                    @if (Auth::check())
+                        {{ Auth::user()->first_name }}
+                    @else
+                        Guest
+                    @endif
+                </div>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
                 {{-- <div class="dropdown-title">Logged in 5 min ago</div> --}}
-                <a href="/profile" class="dropdown-item has-icon">
+                <a href="/user/profile" class="dropdown-item has-icon">
                     <i class="far fa-user"></i> Profile
                 </a>
                 {{-- <a href="features-activities.html" class="dropdown-item has-icon">
